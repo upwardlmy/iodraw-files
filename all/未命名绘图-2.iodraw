@@ -1,0 +1,91 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="24.7.17">
+  <diagram name="Page-1" id="LllDrDbP1730AOYRSLUD">
+    <mxGraphModel dx="1310" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="REdRX4tyfAuf8DtZhwvd-23" value="用户访问登录页面 index.jsp" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="165" y="330" width="259" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="REdRX4tyfAuf8DtZhwvd-24" value="输入用户名和密码" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="95" y="429" width="188" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="REdRX4tyfAuf8DtZhwvd-25" value="点击登录" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="127" y="527" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="REdRX4tyfAuf8DtZhwvd-26" value="AuthServlet 接收登录请求" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="66" y="626" width="245" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="REdRX4tyfAuf8DtZhwvd-27" value="调用 UserDao 验证凭证" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="104" y="750" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="REdRX4tyfAuf8DtZhwvd-28" value="在 Session 中记录用户状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1019" width="249" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="REdRX4tyfAuf8DtZhwvd-29" value="重定向至系统主页 dashboard.jsp" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1127" width="188" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="REdRX4tyfAuf8DtZhwvd-30" value="返回登录页面并显示错误提示" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="319" y="1010" width="252" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="REdRX4tyfAuf8DtZhwvd-31" value="登录成功" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="82" y="1243" width="125" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="REdRX4tyfAuf8DtZhwvd-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="REdRX4tyfAuf8DtZhwvd-23" target="REdRX4tyfAuf8DtZhwvd-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="189" y="404" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REdRX4tyfAuf8DtZhwvd-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="REdRX4tyfAuf8DtZhwvd-24" target="REdRX4tyfAuf8DtZhwvd-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REdRX4tyfAuf8DtZhwvd-34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="REdRX4tyfAuf8DtZhwvd-25" target="REdRX4tyfAuf8DtZhwvd-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REdRX4tyfAuf8DtZhwvd-35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="REdRX4tyfAuf8DtZhwvd-26" target="REdRX4tyfAuf8DtZhwvd-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REdRX4tyfAuf8DtZhwvd-36" value="验证通过" style="curved=1;startArrow=none;endArrow=block;exitX=0.35;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="REdRX4tyfAuf8DtZhwvd-27" target="REdRX4tyfAuf8DtZhwvd-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="144" y="974" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REdRX4tyfAuf8DtZhwvd-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="REdRX4tyfAuf8DtZhwvd-28" target="REdRX4tyfAuf8DtZhwvd-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REdRX4tyfAuf8DtZhwvd-38" value="验证失败" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.97;entryX=0.3;entryY=0;rounded=0;" edge="1" parent="1" source="REdRX4tyfAuf8DtZhwvd-27" target="REdRX4tyfAuf8DtZhwvd-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="339" y="974" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REdRX4tyfAuf8DtZhwvd-39" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="REdRX4tyfAuf8DtZhwvd-29" target="REdRX4tyfAuf8DtZhwvd-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REdRX4tyfAuf8DtZhwvd-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.55;exitY=0;entryX=0.84;entryY=0.99;rounded=0;" edge="1" parent="1" source="REdRX4tyfAuf8DtZhwvd-30" target="REdRX4tyfAuf8DtZhwvd-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="472" y="974" />
+              <mxPoint x="472" y="404" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
