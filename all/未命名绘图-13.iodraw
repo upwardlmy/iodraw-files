@@ -3560,11 +3560,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7TtAbUAvILjNgmII_XZD-238" value="维护地址" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=1;exitY=0.82;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="7TtAbUAvILjNgmII_XZD-90" target="7TtAbUAvILjNgmII_XZD-184">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1134" y="3605" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7TtAbUAvILjNgmII_XZD-239" value="被评论" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0;exitY=0.8;entryX=0.35;entryY=0;rounded=0;" edge="1" parent="1" source="7TtAbUAvILjNgmII_XZD-12" target="7TtAbUAvILjNgmII_XZD-142">
           <mxGeometry relative="1" as="geometry">
