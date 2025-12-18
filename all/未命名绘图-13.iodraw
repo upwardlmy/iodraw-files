@@ -3546,9 +3546,6 @@
         </mxCell>
         <mxCell id="7TtAbUAvILjNgmII_XZD-236" value="发表评论" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0;exitY=0.73;entryX=0.78;entryY=0;rounded=0;" edge="1" parent="1" source="7TtAbUAvILjNgmII_XZD-90" target="7TtAbUAvILjNgmII_XZD-142">
           <mxGeometry x="0.4611" y="2" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="324" y="3605" />
-            </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -3563,11 +3560,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7TtAbUAvILjNgmII_XZD-239" value="被评论" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=0;exitY=0.8;entryX=0.35;entryY=0;rounded=0;" edge="1" parent="1" source="7TtAbUAvILjNgmII_XZD-12" target="7TtAbUAvILjNgmII_XZD-142">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="176" y="3605" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7TtAbUAvILjNgmII_XZD-240" value="被收藏" style="curved=1;startArrow=ERmandOne;startSize=10;;endArrow=ERzeroToMany;endSize=10;;exitX=1;exitY=0.76;entryX=0.16;entryY=0;rounded=0;" edge="1" parent="1" source="7TtAbUAvILjNgmII_XZD-12" target="7TtAbUAvILjNgmII_XZD-168">
           <mxGeometry relative="1" as="geometry">
